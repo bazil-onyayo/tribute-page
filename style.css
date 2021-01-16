@@ -1,0 +1,93 @@
+.container {
+    margin: -1.5% 0% 0% 0%;
+    text-align: center;
+  }
+  
+  #main {
+    background-color: #CCCCCC;
+    font-family: 'Source Code Pro', monospace;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    font-size: 1.65rem;
+    color: #744DF7;
+  
+  }
+
+  em {
+      font-weight: 600;
+      font-size: 1rem;
+      color: #744DF7;
+
+  }
+  
+  #title {
+    font-size: 3.5rem;
+    color: #744DF7;
+    padding-top: 5%;
+  }
+  
+  #sub-title {
+    margin-top: -1.5%;
+    margin-bottom: 5%;
+    font-size: 1.3rem;
+  }
+  
+  #img-div {
+    background-color: #EEEEEE;
+    border-radius: 3px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  #image {
+    border-radius: 15px;
+  }
+  
+  figcaption {
+    padding-top: 1%;
+    color: #3D4040;
+  }
+  
+  ul {
+    max-width: 650px;
+    margin: 0px auto 50px auto;
+    list-style-type: disc;
+    text-align: left;
+  }
+
+  li {
+      font-size: 1.1rem;
+      margin-bottom: 1.5%;
+  }
+  
+  img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #more-info {
+    padding-bottom: 5%;
+    color: #3D4040;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 576px) {
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    #title {
+       font-size: 3rem;
+    }
+  
+    #sub-title {
+      font-size: 1.25rem;
+    }
+  }
